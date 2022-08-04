@@ -153,7 +153,12 @@ xxxxxx on-off individual: /clmnlab/IN/new_label/00_scripts/20200228_MVPA_searchl
 실행하면 이렇게 LSS_beta 아래에 파일들 없어서 error 뜸
 
 000000 individual accuracy map: /clmnlab/IN/new_label/03_MVPA/searchlight/2-class/ , on-off/
+
+두 경로 모두에 .nii.gz 파일들 존재함.
+
 000000 accuracy group stat map: /clmnlab/IN/new_label/03_MVPA/searchlight/2-class/group/, on-off/group/
+
+두 경로 모두에 .BRIK.gz , .nii.gz , .HEAD , .1D(무슨 table 같은 내용들 있음) 파일들 존재함.
 
 Searchlight analysis visualization
 000000 data(이건 그냥 nii.gz 랑 .rgb 파일들임): /clmnlab/IN/new_label/05_Visualization/searchlight/`
