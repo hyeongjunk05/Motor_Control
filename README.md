@@ -15,7 +15,6 @@ server IN 경로에 있는 총 피실험자 데이터 갯수의 숫자. = 44 개
 
 -> 33개로 최종 결정
 
-1. https://gitlab.com/clmnlab/labs/-/wikis/Research-Projects/IN
 
 IN
 
