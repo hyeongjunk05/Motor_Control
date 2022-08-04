@@ -100,6 +100,12 @@ script
 
 000000 /clmnlab/IN/new_label/00_scripts/20200225_GLM_on-off_group-analysis-seprun.sh 로 run 별 on-off group analysis
 
+이거 돌리면
+
+![image](https://user-images.githubusercontent.com/47169500/182743761-02d8da7a-e3bd-4e11-be71-5cfbec345752.png)
+
+이렇게 이미 존재한다고 나옴
+
 000000 individual stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/IN??/stats.IN??.r0?.nii.gz
 
 000000 group stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/group/
