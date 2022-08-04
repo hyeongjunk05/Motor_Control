@@ -1,14 +1,18 @@
 # Motor_Adaptation
 Motor_Adaptation
 1. https://gitlab.com/clmnlab/labs/-/wikis/Research-Projects/IN
-https://github.com/clmnlab/labs/tree/master/interference-project 이거 서버 내, 내 것에 다운 받아둚
+https://github.com/clmnlab/labs/tree/master/interference-project 
+
+이거 서버 내, 내 것에 다운 받아둚
 
 
 논문에 언급된 총 피실험자 숫자
 -> 18 female
 
 
-server IN 경로에 있는 총 피실험자 데이터 갯수의 숫자. = 44 개.
+server IN 경로에 있는 총 피실험자 데이터 갯수의 숫자. = 44 개. 
+
+-> 33개로 최종 결정
 
 1. https://gitlab.com/clmnlab/labs/-/wikis/Research-Projects/IN
 
