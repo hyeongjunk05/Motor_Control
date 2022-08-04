@@ -160,9 +160,14 @@ xxxxxx on-off individual: /clmnlab/IN/new_label/00_scripts/20200228_MVPA_searchl
 
 두 경로 모두에 .BRIK.gz , .nii.gz , .HEAD , .1D(무슨 table 같은 내용들 있음) 파일들 존재함.
 
+
 Searchlight analysis visualization
+
 000000 data(이건 그냥 nii.gz 랑 .rgb 파일들임): /clmnlab/IN/new_label/05_Visualization/searchlight/`
+
 000000 code: /clmnlab/IN/new_label/00_scripts/20200416_Visualization_searchlight-analysis-results-in-surface.ipynb
+
+clmnlab_libs.mvpa_toolkits 에서 mvpa_toolkits.py 들어가면 어떤 library 없다고 해서 다른 데서 찾아서 해주니 첫번째 cell에서 에러 사라짐.
 
 ![image](https://user-images.githubusercontent.com/47169500/182758439-bd612317-b496-4abe-8b92-8829f9f7896d.png)
 
