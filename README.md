@@ -1,5 +1,5 @@
-# Motor_Control
-Motor_Control
+# Motor_Adaptation
+Motor_Adaptation
 1. https://gitlab.com/clmnlab/labs/-/wikis/Research-Projects/IN
 https://github.com/clmnlab/labs/tree/master/interference-project 이거 서버 내, 내 것에 다운 받아둚
 
@@ -96,7 +96,7 @@ script
 
 ![image](https://user-images.githubusercontent.com/47169500/182743277-16b2e760-e6cf-47c4-bf42-42a249b66d34.png)
 
-이렇게 이미 존재한다고 나옴
+이렇게 이미 존재한다고 나옴 - 해결
 
 000000 /clmnlab/IN/new_label/00_scripts/20200225_GLM_on-off_group-analysis-seprun.sh 로 run 별 on-off group analysis
 
@@ -104,7 +104,7 @@ script
 
 ![image](https://user-images.githubusercontent.com/47169500/182743761-02d8da7a-e3bd-4e11-be71-5cfbec345752.png)
 
-이렇게 이미 존재한다고 나옴
+이렇게 이미 존재한다고 나옴 - 해결
 
 000000 individual stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/IN??/stats.IN??.r0?.nii.gz
 
@@ -139,7 +139,7 @@ Conjunction analysis anatomical region description
 
 111000 code: /clmnlab/IN/new_label/00_scripts/20200416_Results_Cluster-region-description.ipynb
 
-다 잘 돌아가는데, 맨 마지막 Cell에서 nii.gz 파일들에 대하여 자꾸 permission Error 뜸.
+다 잘 돌아가는데, 맨 마지막 Cell에서 nii.gz 파일들에 대하여 자꾸 permission Error 뜸. -> 애초에 노트북 자체에 default로 image들 있음 - 해결
 
 Searchlight analysis
 
