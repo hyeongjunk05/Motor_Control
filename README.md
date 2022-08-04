@@ -86,6 +86,7 @@ xxxxxx regressor 파일 위치: /clmnlab/IN/new_label/02_GLM/regressors(이게 �
 script
 000000 /clmnlab/IN/new_label/00_scripts/20200224_GLM_deconvolve-stats-seprun.sh 로 deconvolve 를 각 run 별로 2-class, on-off stat 값을 뽑은 다음
 ![image](https://user-images.githubusercontent.com/47169500/182741922-baee0e14-1ba3-4502-8e31-9c7f084c7f85.png)
+.sh 돌리려는데, 여기서 AFNI_data/ 이후의 경로들 게 존재하지 않음..
 
 000000 /clmnlab/IN/new_label/00_scripts/20200224_GLM_2-class_group-analysis-seprun.sh 로 run 별 2-class group analysis
 000000 /clmnlab/IN/new_label/00_scripts/20200225_GLM_on-off_group-analysis-seprun.sh 로 run 별 on-off group analysis
