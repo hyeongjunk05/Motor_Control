@@ -117,6 +117,8 @@ script
 Conjunction analysis visualization
 000000 data: /clmnlab/IN/new_label/05_Visualization/conjunction/
 
+존재. .HEAD file 들하고, nii.gz 파일들 존재.
+
 000000 color scheme: /clmnlab/IN/new_label/00_scripts/IN_scheme.rgb
 
 fsleyes 에서 import 하여 사용 가능
