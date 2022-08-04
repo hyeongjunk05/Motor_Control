@@ -183,6 +183,8 @@ https://github.com/mne-tools/mne-python/blob/main/mne/fixes.py
 Searchlight analysis anatomical region description
 000000 code: /clmnlab/IN/new_label/00_scripts/20200420_Results_Cluster-region-description_searchlight.ipynb
 
+다 잘 돌아감.
+
 ROI-based MVPA
 000000 code & visualization: /clmnlab/IN/new_label/00_scripts/20200224_MVPA_ROI-based-MVPA-analysis.ipynb(MVPA-analysis(_old_dataset이 존재함).ipynb
 )
