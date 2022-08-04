@@ -91,6 +91,13 @@ script
 .sh 돌리려는데, 여기서 AFNI_data/ 이후의 경로들 게 존재하지 않음..
 
 000000 /clmnlab/IN/new_label/00_scripts/20200224_GLM_2-class_group-analysis-seprun.sh 로 run 별 2-class group analysis
+
+이거 돌리면 
+
+![image](https://user-images.githubusercontent.com/47169500/182743277-16b2e760-e6cf-47c4-bf42-42a249b66d34.png)
+
+이렇게 이미 존재한다고 나옴
+
 000000 /clmnlab/IN/new_label/00_scripts/20200225_GLM_on-off_group-analysis-seprun.sh 로 run 별 on-off group analysis
 
 000000 individual stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/IN??/stats.IN??.r0?.nii.gz
