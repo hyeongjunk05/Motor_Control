@@ -108,6 +108,8 @@ script
 
 000000 individual stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/IN??/stats.IN??.r0?.nii.gz
 
+이거는 총 stats_seprun/IN?? -> 에서 ??이 총 33개 유효 피실험자 데이터 존재함. 정확.
+
 000000 group stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/group/
 
 Conjunction analysis visualization
