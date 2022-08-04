@@ -127,7 +127,7 @@ fsleyes 에서 import 하여 사용 가능
 
 000000 code: /clmnlab/IN/new_label/00_scripts/20200414_Visualization_conjunction-analysis-results-in-surface.ipynb
 
-문제가 많은 코드. import 하는 library 중에 local_modules 라는 게 존재하지 않음
+첫번 쨰 cell에는 확실히 문제가 있는 코드. import 하는 library 중에 local_modules 라는 게 존재하지 않음
 
 각 run 별 corrected p < 0.05 thresholded cluster mask image 를 가져온 다음
 conjunction analysis 를 수행한 뒤에
@@ -147,6 +147,11 @@ script
 xxxxxx 2-class individual: /clmnlab/IN/new_label/00_scripts/20200228_MVPA_searchlight-analysis_2-class.py
 xxxxxx on-off individual: /clmnlab/IN/new_label/00_scripts/20200228_MVPA_searchlight-analysis_on-off.py
 000000 group analysis: /clmnlab/IN/new_label/00_scripts/20200316_MVPA_searchlight-group-analysis.sh
+
+![image](https://user-images.githubusercontent.com/47169500/182753983-46974727-82ca-48b9-bfce-e3c520659fe9.png)
+
+실행하면 이렇게 LSS_beta 아래에 파일들 없어서 error 뜸
+
 000000 individual accuracy map: /clmnlab/IN/new_label/03_MVPA/searchlight/2-class/ , on-off/
 000000 accuracy group stat map: /clmnlab/IN/new_label/03_MVPA/searchlight/2-class/group/, on-off/group/
 
