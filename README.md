@@ -192,6 +192,7 @@ ROI-based MVPA
 )
 
 4번쨰 Cell에 LSS_trialtypes_pb04/03_data/ 데이터가 존재하지 않아서 에러남.
+또한 01_behave도 폴더만 존재하고, 내부에 아무것도 없어서, 이거 있는 cell 에러남.
 
 data
 
