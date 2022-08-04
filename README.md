@@ -127,7 +127,7 @@ fsleyes 에서 import 하여 사용 가능
 
 000000 code: /clmnlab/IN/new_label/00_scripts/20200414_Visualization_conjunction-analysis-results-in-surface.ipynb
 
-s
+문제가 많은 코드. import 하는 library 중에 local_modules 라는 게 존재하지 않음
 
 각 run 별 corrected p < 0.05 thresholded cluster mask image 를 가져온 다음
 conjunction analysis 를 수행한 뒤에
@@ -138,6 +138,9 @@ duct taping 으로 nilearn.plotting.plot_surf 함수를 수정하여 사용함
 Conjunction analysis anatomical region description
 
 111000 code: /clmnlab/IN/new_label/00_scripts/20200416_Results_Cluster-region-description.ipynb
+
+
+
 Searchlight analysis
 
 script
