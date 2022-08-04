@@ -121,14 +121,20 @@ Conjunction analysis visualization
 
 000000 color scheme: /clmnlab/IN/new_label/00_scripts/IN_scheme.rgb
 
+.rgb 파일 존재.
+
 fsleyes 에서 import 하여 사용 가능
 
 000000 code: /clmnlab/IN/new_label/00_scripts/20200414_Visualization_conjunction-analysis-results-in-surface.ipynb
+
+s
+
 각 run 별 corrected p < 0.05 thresholded cluster mask image 를 가져온 다음
 conjunction analysis 를 수행한 뒤에
 이를 맞는 color scheme 으로
 surface 에 volume 파일 올려서 그림 그림
 duct taping 으로 nilearn.plotting.plot_surf 함수를 수정하여 사용함
+
 Conjunction analysis anatomical region description
 
 111000 code: /clmnlab/IN/new_label/00_scripts/20200416_Results_Cluster-region-description.ipynb
