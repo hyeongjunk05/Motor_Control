@@ -112,6 +112,8 @@ script
 
 000000 group stats files: /clmnlab/IN/new_label/02_GLM/stats_seprun/group/
 
+위에서들 봤듯이 이미 group/2-class & on-off 결과폴더들 존재.
+
 Conjunction analysis visualization
 000000 data: /clmnlab/IN/new_label/05_Visualization/conjunction/
 
