@@ -164,6 +164,17 @@ Searchlight analysis visualization
 000000 data(이건 그냥 nii.gz 랑 .rgb 파일들임): /clmnlab/IN/new_label/05_Visualization/searchlight/`
 000000 code: /clmnlab/IN/new_label/00_scripts/20200416_Visualization_searchlight-analysis-results-in-surface.ipynb
 
+![image](https://user-images.githubusercontent.com/47169500/182758439-bd612317-b496-4abe-8b92-8829f9f7896d.png)
+
+_crop_colorbar 이라는 거 import Error 계속 떠서 아래 링크에서 찾아서 복붙해서 library에 넣었더니 돌아감.
+
+https://github.com/mne-tools/mne-python/blob/main/mne/fixes.py
+
+![image](https://user-images.githubusercontent.com/47169500/182758344-16a8c3f9-2b8c-4174-b9a3-642670ae381e.png)
+
+20200417_colormap.png 있는 부분 코드에서 PermissionError 발생 하는 거 빼고는 다 잘 돌아감.
+
+
 Searchlight analysis anatomical region description
 000000 code: /clmnlab/IN/new_label/00_scripts/20200420_Results_Cluster-region-description_searchlight.ipynb
 
