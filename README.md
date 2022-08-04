@@ -191,6 +191,8 @@ ROI-based MVPA
 000000 code & visualization: /clmnlab/IN/new_label/00_scripts/20200224_MVPA_ROI-based-MVPA-analysis.ipynb(MVPA-analysis(_old_dataset이 존재함).ipynb
 )
 
+4번쨰 Cell에 LSS_trialtypes_pb04/03_data/ 데이터가 존재하지 않아서 에러남.
+
 data
 
 000000 /clmnlab/IN/new_label/00_scripts/20200224_MVPA_results.pkl
