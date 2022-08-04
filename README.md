@@ -139,7 +139,7 @@ Conjunction analysis anatomical region description
 
 111000 code: /clmnlab/IN/new_label/00_scripts/20200416_Results_Cluster-region-description.ipynb
 
-
+다 잘 돌아가는데, 맨 마지막 Cell에서 nii.gz 파일들에 대하여 자꾸 permission Error 뜸.
 
 Searchlight analysis
 
