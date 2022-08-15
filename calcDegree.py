@@ -1,0 +1,183 @@
+import csv
+from collections import defaultdict
+
+rf = defaultdict()
+f1 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN04_behav.csv', 'r', encoding='utf-8')
+rf[1] = csv.reader(f1)
+f2 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN05_behav.csv', 'r', encoding='utf-8')
+rf[2] = csv.reader(f2)
+f3 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN07_behav.csv', 'r', encoding='utf-8')
+rf[3] = csv.reader(f3)
+f4 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN09_behav.csv', 'r', encoding='utf-8')
+rf[4] = csv.reader(f4)
+f5 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN10_behav.csv', 'r', encoding='utf-8')
+rf[5] = csv.reader(f5)
+f6 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN11_behav.csv', 'r', encoding='utf-8')
+rf[6] = csv.reader(f6)
+f7 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN12_behav.csv', 'r', encoding='utf-8')
+rf[7] = csv.reader(f7)
+f8 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN13_behav.csv', 'r', encoding='utf-8')
+rf[8] = csv.reader(f8)
+f9 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN14_behav.csv', 'r', encoding='utf-8')
+rf[9] = csv.reader(f9)
+f10 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN15_behav.csv', 'r', encoding='utf-8')
+rf[10] = csv.reader(f10)
+f11 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN16_behav.csv', 'r', encoding='utf-8')
+rf[11] = csv.reader(f11)
+f12 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN17_behav.csv', 'r', encoding='utf-8')
+rf[12] = csv.reader(f12)
+f13 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN18_behav.csv', 'r', encoding='utf-8')
+rf[13] = csv.reader(f13)
+f14 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN23_behav.csv', 'r', encoding='utf-8')
+rf[14] = csv.reader(f14)
+f15 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN24_behav.csv', 'r', encoding='utf-8')
+rf[15] = csv.reader(f15)
+f16 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN25_behav.csv', 'r', encoding='utf-8')
+rf[16] = csv.reader(f16)
+f17 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN26_behav.csv', 'r', encoding='utf-8')
+rf[17] = csv.reader(f17)
+f18 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN28_behav.csv', 'r', encoding='utf-8')
+rf[18] = csv.reader(f18)
+f19 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN29_behav.csv', 'r', encoding='utf-8')
+rf[19] = csv.reader(f19)
+f20 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN30_behav.csv', 'r', encoding='utf-8')
+rf[20] = csv.reader(f20)
+f21 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN31_behav.csv', 'r', encoding='utf-8')
+rf[21] = csv.reader(f21)
+f22 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN32_behav.csv', 'r', encoding='utf-8')
+rf[22] = csv.reader(f22)
+f23 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN33_behav.csv', 'r', encoding='utf-8')
+rf[23] = csv.reader(f23)
+f24 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN34_behav.csv', 'r', encoding='utf-8')
+rf[24] = csv.reader(f24)
+f25 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN35_behav.csv', 'r', encoding='utf-8')
+rf[25] = csv.reader(f25)
+f26 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN38_behav.csv', 'r', encoding='utf-8')
+rf[26] = csv.reader(f26)
+f27 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN39_behav.csv', 'r', encoding='utf-8')
+rf[27] = csv.reader(f27)
+f28 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN40_behav.csv', 'r', encoding='utf-8')
+rf[28] = csv.reader(f28)
+f29 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN41_behav.csv', 'r', encoding='utf-8')
+rf[29] = csv.reader(f29)
+f30 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN42_behav.csv', 'r', encoding='utf-8')
+rf[30] = csv.reader(f30)
+f31 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN43_behav.csv', 'r', encoding='utf-8')
+rf[31] = csv.reader(f31)
+f32 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN45_behav.csv', 'r', encoding='utf-8')
+rf[32] = csv.reader(f32)
+f33 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN46_behav.csv', 'r', encoding='utf-8')
+rf[33] = csv.reader(f33)
+
+
+gf = defaultdict()
+f1 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN04_behav.csv', 'r', encoding='utf-8')
+gf[1] = csv.reader(f1)
+f2 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN05_behav.csv', 'r', encoding='utf-8')
+gf[2] = csv.reader(f2)
+f3 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN07_behav.csv', 'r', encoding='utf-8')
+gf[3] = csv.reader(f3)
+f4 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN09_behav.csv', 'r', encoding='utf-8')
+gf[4] = csv.reader(f4)
+f5 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN10_behav.csv', 'r', encoding='utf-8')
+gf[5] = csv.reader(f5)
+f6 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN11_behav.csv', 'r', encoding='utf-8')
+gf[6] = csv.reader(f6)
+f7 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN12_behav.csv', 'r', encoding='utf-8')
+gf[7] = csv.reader(f7)
+f8 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN13_behav.csv', 'r', encoding='utf-8')
+gf[8] = csv.reader(f8)
+f9 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN14_behav.csv', 'r', encoding='utf-8')
+gf[9] = csv.reader(f9)
+f10 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN15_behav.csv', 'r', encoding='utf-8')
+gf[10] = csv.reader(f10)
+f11 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN16_behav.csv', 'r', encoding='utf-8')
+gf[11] = csv.reader(f11)
+f12 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN17_behav.csv', 'r', encoding='utf-8')
+gf[12] = csv.reader(f12)
+f13 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN18_behav.csv', 'r', encoding='utf-8')
+gf[13] = csv.reader(f13)
+f14 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN23_behav.csv', 'r', encoding='utf-8')
+gf[14] = csv.reader(f14)
+f15 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN24_behav.csv', 'r', encoding='utf-8')
+gf[15] = csv.reader(f15)
+f16 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN25_behav.csv', 'r', encoding='utf-8')
+gf[16] = csv.reader(f16)
+f17 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN26_behav.csv', 'r', encoding='utf-8')
+gf[17] = csv.reader(f17)
+f18 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN28_behav.csv', 'r', encoding='utf-8')
+gf[18] = csv.reader(f18)
+f19 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN29_behav.csv', 'r', encoding='utf-8')
+gf[19] = csv.reader(f19)
+f20 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN30_behav.csv', 'r', encoding='utf-8')
+gf[20] = csv.reader(f20)
+f21 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN31_behav.csv', 'r', encoding='utf-8')
+gf[21] = csv.reader(f21)
+f22 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN32_behav.csv', 'r', encoding='utf-8')
+gf[22] = csv.reader(f22)
+f23 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN33_behav.csv', 'r', encoding='utf-8')
+gf[23] = csv.reader(f23)
+f24 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN34_behav.csv', 'r', encoding='utf-8')
+gf[24] = csv.reader(f24)
+f25 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN35_behav.csv', 'r', encoding='utf-8')
+gf[25] = csv.reader(f25)
+f26 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN38_behav.csv', 'r', encoding='utf-8')
+gf[26] = csv.reader(f26)
+f27 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN39_behav.csv', 'r', encoding='utf-8')
+gf[27] = csv.reader(f27)
+f28 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN40_behav.csv', 'r', encoding='utf-8')
+gf[28] = csv.reader(f28)
+f29 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN41_behav.csv', 'r', encoding='utf-8')
+gf[29] = csv.reader(f29)
+f30 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN42_behav.csv', 'r', encoding='utf-8')
+gf[30] = csv.reader(f30)
+f31 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN43_behav.csv', 'r', encoding='utf-8')
+gf[31] = csv.reader(f31)
+f32 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN45_behav.csv', 'r', encoding='utf-8')
+gf[32] = csv.reader(f32)
+f33 = open('/mnt/ext5/NAS05/IN/LSS_trialtypes/03_behavior/IN46_behav.csv', 'r', encoding='utf-8')
+gf[33] = csv.reader(f33)
+
+
+# print(type(rf33))
+
+"""
+for i in range(33):
+   globals()['rf{}'.format(i+1)] = csv.reader('f{}'.format(i+1)) #[x for x in range(3)] #csv.reader(f33)
+"""
+
+# print(type(rf1))
+# print(rf29)
+# print(rf33)
+# print(type(rf33))
+
+
+mean = 0
+len = 0
+pcssum = 0 # 편차의 제곱의 합
+variance = 0
+for i in range(33):
+   for line in rf[i+1]:    #rf+{}.format(i+1):
+      # print(line)
+      if line[1] == '1':
+         if line[6] == '0':
+            mean += float(line[4])
+            len += 1
+
+mean = mean / len
+print(mean)
+
+for i in range(33):
+   for line in gf[i+1]:
+      if line[1] == '1':
+         if line[6] == '0':
+            pcssum += (float(line[4])-mean)*(float(line[4])-mean)         
+
+variance = pcssum / len
+std = variance**(1/2)
+print(mean)
+print(std)
+"""
+for i in range(33):
+   globals()['f{}'.format(i+1)].close()
+"""
